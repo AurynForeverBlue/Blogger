@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("../Nav/Nav.css");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #0e6cc4;
+}
+
+.container {
+  background-color: #fff;
+  width: 100%;
+  height: 600px;
+  display: inline-block;
+}
+
+.container .fotobk {
+  width: 100%;
+  height: 200px;
+  background-color: green;
+  background-image: url("../../Media/Account/Header/Vector.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: block;
+}
+
+.container .kleinpf {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-top: -60px;
+  margin-left: 5%;
+  background-color: #0e6cc4;
+  background-image: url("../../Media/Account/pfphoto/background.webp");
+  z-index: 9;
+}
+
+.container .info {
+  width: 40%;
+  height: 200px;
+  float: left;
+  text-align: center;
+  font-size: 25px;
+  background-color: #fff;
+}
+
+.container .info h2 {
+  margin-top: 60px;
+}
+
+.container .meerinfo {
+  width: 90%;
+  min-height: 200px;
+  text-align: left;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+
+.container .meerinfo h3 {
+  margin-top: 50px;
+  padding-left: 53%;
+}
+
+.container .post {
+  width: 100%;
+  height: 400px;
+  background-color: #1e72d2;
+  color: #fff;
+}
+
+.container .post .latest {
+  color: #fff;
+  margin-left: 42%;
+  font-size: 40px;
+}
+
+.container .post h1 {
+  padding-left: 40px;
+}
+
+.container .post .inputL {
+  float: left;
+  width: 40%;
+  height: 400px;
+}
+
+.container .post .inputL p {
+  margin-left: 100px;
+  padding-top: 20px;
+}
+
+.container .post .inputR {
+  float: left;
+  width: 40%;
+  height: 400px;
+}
+
+.container .post .inputR p {
+  margin-left: 100px;
+  padding-top: 30px;
+}
+
+.container .post .inputR .Username {
+  padding-top: 60px;
+}
+
+.container input {
+  width: 30%;
+  height: 25px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 2%;
+  margin-left: 100px;
+}
+
+.container textarea {
+  margin-left: 100px;
+}
+/*# sourceMappingURL=Settings.css.map */

@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@200;400&display=swap");
+@import url("../Nav/Nav.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+#account_box,
+#contentWrapper {
+  float: left;
+  margin: 20px;
+}
+
+#account_box {
+  width: 25vw;
+  height: 95vh;
+  text-align: center;
+  position: fixed;
+}
+
+#account_box img {
+  width: 200px;
+  height: 175px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+#BlogPosterbtn {
+  width: 175px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+  transition: 0.2s;
+  box-shadow: 0 9px #999;
+  outline: none;
+}
+
+#BlogPosterbtn:hover {
+  background-color: #0e6cc4;
+}
+
+#BlogPosterbtn:active {
+  background-color: #3c668d;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.activity {
+  width: 75%;
+  height: 45vh;
+  margin: auto;
+  margin-top: 10px;
+  overflow-y: scroll;
+}
+
+.notification {
+  margin: 20px;
+}
+
+#contentWrapper {
+  float: right;
+  width: 65vw;
+  min-height: auto;
+  padding-bottom: 50px;
+}
+
+.contentBox {
+  width: 80%;
+  height: 300px;
+  background-color: white;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.contentBox img {
+  width: 40%;
+  height: 100%;
+}
+
+.contentData {
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+
+.text {
+  width: 85%;
+  height: 80%;
+  float: left;
+  margin: 20px;
+  text-overflow: ellipsis;
+}
+
+.Titel {
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  transition: 0.2s;
+}
+
+.Titel:hover {
+  color: #0e6cc4;
+  cursor: pointer;
+}
+
+/* The Modal (achtergrond) */
+.modal {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 10px;
+  border: 1px solid #888;
+  width: 500px;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+  color: rgb(0, 0, 0);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(103, 103, 103);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.blogpostform {
+  text-align: center;
+}
+
+.blogpostform input,
+.blogpostform textarea{
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.c-red {
+  color: red;
+}
+
+.c-green {
+  color: green;
+}
+
+@media only screen and (max-width: 1000px) {
+  #account_box {
+    width: 100%;
+    margin: auto;
+    height: 200px;
+    position: relative;
+    margin-bottom: 65vh;
+  }
+
+  #contentWrapper {
+    width: 100%;
+    margin: auto;
+  }
+
+  .contentBox {
+    width: 70%;
+    height: 600px;
+  }
+
+  .contentBox img {
+    width: 100%;
+    height: 50%;
+    margin-top: 0px;
+  }
+
+  .text {
+    width: 100%;
+    height: 50%;
+    float: left;
+    text-overflow: ellipsis;
+  }
+}
