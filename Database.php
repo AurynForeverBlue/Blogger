@@ -8,7 +8,7 @@ class DBConnection
 {
 
     private $username = "db86900";
-    private $password = "Zelda313!";
+    private $password = "";
     private $con;
 
     public function __construct()
